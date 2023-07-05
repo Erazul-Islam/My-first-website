@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body{
+            background-color: aqua;
+            
+        }
+        form{
+            background-color: antiquewhite;
+            width: 500px;
+            height:700px;
+            padding: 80px;
+            box-shadow: 50px salmon;
+            text-align: left;
+            font-size: 15px;
+        }
+        button:hover{
+            background-color: palevioletred;
+        }
+        input:hover{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+    <h2>A Servey Form Of a Developer</h2>
+    <form>
+        <div class="A">
+        <h3><label for="fname">Name:</label><br></h3>
+        <input type="text" placeholder="Enter Your Name"><br></div>
+        <h3><label for="email">Email:</label><br></h3>
+        <input type="text" placeholder="Enter Your Email"><br>
+        <h3><label for="Age">Age:</label><br></h3>
+        <input type="text" placeholder="Enter Your Age"><br>
+        <h3><label for="profession">Which option describes you best</label><br></h3>
+        <select id="profession">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Writer">Writer</option>
+        </select><br>
+        <h3><label>Would you recommend PH to be a friend<br></h3>
+            <input type="radio">yes<br>
+            <input type="radio">No<br>
+            <input type="radio">Maybe<br>
+        </label>
+        <h3><label>
+            Languages & Frameworks Known <br></h3>
+            <input type="checkbox">HTML<br>
+            <input type="checkbox">CSS<br>
+            <input type="checkbox">JavaScript<br>
+            <input type="checkbox">C++<br>
+            <input type="checkbox">PHP<br>
+            <input type="checkbox">Bootstrap<br>
+            <input type="checkbox">Tailwind CSS<br><br>
+        </label>
+        <h3><label>Any Suggesetion<br></h3>
+            <input type="text" placeholder="Write your valuable opinion">
+        </label><br><br>
+          <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
